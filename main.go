@@ -18,5 +18,7 @@ func main(){
 	fmt.Scan(&a)
 	fmt.Scan(&b)
 	fmt.Scan(&c)
-	currency := map[a][b]
+	currency := m[a][b]
+	result := currency * c
+	fmt.Println(result)
 }
